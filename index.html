@@ -6,7 +6,7 @@
   <link rel="stylesheet" type="text/css" href="desktop.css" media="only screen  and (min-width: 700px)" />
   <script>
     
-    if(document.defaultView.getComputedStyle(document.getElementById("heading"),null).color == "rgb(255, 0, 0)") {
+    if(document.defaultView.getComputedStyle(document.getElementById("heading"),null).getPropertyValue("color") == "rgb(255, 0, 0)") {
       document.write('<script src="http://code.jquery.com/jquery-1.9.1.min.js"><\/script>')
     }  </script>
 </head>
